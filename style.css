@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+}
+.form {
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+ img {
+    width: 100px;
+}
+
+.logo {
+    margin: 0 auto;
+}
+
+.link {
+    margin: 5px 0;
+    text-decoration: none;
+    font-size: small;
+}
+
+.input {
+    margin-top: 5px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #888; 
+    padding: 0 0.5em;
+}
+
+.date {
+    width: 45%;
+}
+
+.select {
+    margin-top: 5px;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid #888; 
+    appearance: none;
+    background-color: transparent;
+    padding: 0 0.5em;
+}
+
+.textarea {
+    margin-top: 5px;
+    border: 1px solid #888; 
+    border-radius: 5px;
+    border: 1px solid #888; 
+    padding: 0 0.5em;
+}
+
+.container {
+    padding: 15px;
+    background-color: #2596be;
+    display: flex;
+    justify-content: center;
+}
+
+.dateContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
+
+.inputContainer {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.title {
+  margin: 0 auto;
+}
+
+.desription {
+    margin: 10px;
+}
+
+.submitBtn {
+    background: #0066A2;
+	color: white;
+	border-style: outset;
+	border-color: #0066A2;
+	height: 30px;
+	width: 100px;
+	text-shadow: none;
+    margin: 10px;
+}
+
+ 

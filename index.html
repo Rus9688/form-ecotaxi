@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Eco-Taxi</title>
+</head>
+<body>
+    <div class="container">
+        <form class="form" id="form">
+            <div class="logo"><img class="form-logo-img" src="https://res.cloudinary.com/monday-platform-eu/image/upload/v1675768162/board_views_images/logos/1675768161897_9c11fba1-36a6-2ee2-e90e-12879d374685.png"></div>
+            <h1 class="title">Eco-taxi by Parki ar minda</h1>
+            <p class="desription">შეავსეთ ეს ფორმა თუ გნებავთ ეკო-ტაქსის შეკვეთა / Please, fill this form if you want to order eco-taxi</p>
+
+            <div class="inputContainer">
+                <label for="start-date">Date /  თარიღი<br/>(The range size must be limited to 7 days minimum)</label>
+                <div class="dateContainer">
+                    <input class="input date" name="start-time" id="start-date" type="date">
+                    <input class="input date" name="end-time" id="end-date" type="date">
+                </div>
+            </div>
+           
+            <div class="inputContainer">
+            <label for="full-name">Please write your name & surname / გთხოვთ დაწეროთ თქვენი სახელი და გვარი</label>
+            <input class="input" name="full-name" id="full-name" type="text">
+           </div>
+           
+           <div class="inputContainer">
+            <label for="address">Please write your address/ გთხოვთ დაწეროთ თქვენი მისამართი</label>
+            <input class="input" name="address" id="address" type="text">
+           </div>
+          
+           <div class="inputContainer">
+            <label for="area">Please choose your area / გთხოვთ, აირჩიოთ თქვენი ტერიტორია</label>
+            <select class="select" name="area" id="area">
+                <option value="">Please choose an area</option>
+                <option value="Avchala">Avchala</option>
+                <option value="Avlabari">Avlabari</option>
+                <option value="Bagebi">Bagebi</option>
+                <option value="Dighomi">Dighomi</option>
+                <option value="Dighomi Village">Dighomi Village</option>
+                <option value="Didi Dighomi">Didi Dighomi</option>
+                <option value="Didube">Didube</option>
+                <option value="Chughureti">Chughureti</option>
+                <option value="Garetubani">Garetubani</option>
+                <option value="Gldani">Gldani</option>
+                <option value="Isani">Isani</option>
+                <option value="Kharpukhi">Kharpukhi</option>
+                <option value="Kiketi">Kiketi</option>
+                <option value=" Kojori">Kojori</option>
+                <option value="Krtsanisi">Krtsanisi</option>
+                <option value="Lisi">Lisi</option>
+                <option value="Mtatsminda">Mtatsminda</option>
+                <option value="Mukhiani">Mukhiani</option>
+                <option value="Nadzaladevi">Nadzaladevi</option>
+                <option value="Okrokana">Okrokana</option>
+                <option value="Old Town(Kala)">Old Town(Kala)</option>
+                <option value="Ortachala">Ortachala</option>
+                <option value="Saburtalalo">Saburtalalo</option>
+                <option value="Samgori">Samgori</option>
+                <option value="Shindisi">Shindisi</option>
+                <option value="Sololaki">Sololaki</option>
+                <option value="Tskneti">Tskneti</option>
+                <option value="Vake">Vake</option>
+                <option value=" Varketili">Varketili</option>
+                <option value="Vashlisdzhvari">Vashlisdzhvari</option>
+                <option value="Vazisubani">Vazisubani</option>
+                <option value="Vera">Vera</option>
+                <option value="Zghvis ubani">Zghvis ubani</option>                
+            </select>
+           </div>
+           
+           <div class="inputContainer">
+            <label for="phone">Please leave your phone number / გთხოვთ დატოვოთ თქვენი ტელეფონის ნომერი</label>
+            <input class="input" name="phone" id="phone" type="tel">
+           </div>
+
+           <div class="inputContainer">
+            <label for="language">Please choose your preferable language /  აირჩიეთ თქვენთვის სასურველი ენა </label>
+            <select class="select" name="language" id="language">
+                <option value="">Please choose a language</option>
+                <option value="ქართული">ქართული</option>
+                <option value="English">English</option>
+                <option value="Русский">Русский</option>
+            </select>
+           </div>
+
+           <div class="inputContainer">
+            <label for="tariff">Please choose your area / გთხოვთ, აირჩიოთ თქვენი ტერიტორია</label>
+            <a class="link" href="https://www.facebook.com/ecotaxibyparkiarminda/posts/660685555181667">New Pricing for Eco-Taxi services / ეკო-ტაქსის სერვისების ახალი ფასები </a>
+            <select class="select" name="tariff" id="tariff">
+                <option value="">Please choose a tariff</option>
+                <option value="20 GEL - Basic tariff in central areas of Tbilisi /  20 ლარი - საბაზისო ტარიფი">20 GEL - Basic tariff in central areas of Tbilisi /  20 ლარი - საბაზისო ტარიფი</option>
+                <option value="25 GEL - Basic tariff in more remote areas of Tbilisi / 25 ლარი - საბაზისო ტარიფი თბილისის ცენტრისგან მოშორებით">25 GEL - Basic tariff in more remote areas of Tbilisi / 25 ლარი - საბაზისო ტარიფი თბილისის ცენტრისგან მოშორებით</option>
+                <option value="30 GEL - Basic tariff ( pick up out of town) / 30 ლარი - ტარიფი დამატებითი ქალაქის გარეთ">30 GEL - Basic tariff ( pick up out of town) / 30 ლარი - ტარიფი დამატებითი ქალაქის გარეთ</option>
+                <option value="40 GEL - Tariff with additional sorting in central areas of Tbilisi / 40 ლარი - ტარიფი დამატებითი დახარისხებით ცენტრალურ უბნებში">40 GEL - Tariff with additional sorting in central areas of Tbilisi / 40 ლარი - ტარიფი დამატებითი დახარისხებით ცენტრალურ უბნებში</option>
+                <option value="50 GEL -  Tariff with additional sorting in remote areas of Tbilisi / 50 ლარი - ტარიფი დამატებითი დახარისხებით თბილისის ცენტრისგან მოშორებით">50 GEL -  Tariff with additional sorting in remote areas of Tbilisi / 50 ლარი - ტარიფი დამატებითი დახარისხებით თბილისის ცენტრისგან მოშორებით</option>
+                <option value="30 GEL - Prices for corporate clients will be developed separately / 30 ლარი - კორპორაციული კლიენტებისათვის ფასები დგინდება ინდივიდუალურად.">30 GEL - Prices for corporate clients will be developed separately / 30 ლარი - კორპორაციული კლიენტებისათვის ფასები დგინდება ინდივიდუალურად.</option>
+            </select>
+           </div>
+
+           <div class="inputContainer">
+            <label for="paymentMethod">Please choose your payment method /  აირჩიეთ გადახდის მეთოდი</label>
+            <select class="select" name="paymentMethod" id="paymentMethod">
+                <option value="">Please choose a payment method</option>
+                <option value="Cash / ნაღდი გადახდა">Cash / ნაღდი გადახდა</option>
+                <option value="Transfer to account / გადარიცხვა ანგარიშზე">Transfer to account / გადარიცხვა ანგარიშზე</option>
+                <option value="Invoice / ინვოისი">Invoice / ინვოისი</option>
+            </select>
+           </div>
+
+           <div class="inputContainer">
+            <label for="email">Please write your email / გთხოვთ დაწეროთ თქვენი ელ.ფოსტა</label>
+            <input class="input" name="email" id="email" type="email">
+           </div>
+
+           <div class="inputContainer">
+            <label for="comment">Additional comments /  დამატებითი კომენტარი</label>
+            <textarea class="textarea" name="comment" id="comment" type="text"></textarea>
+           </div>
+
+           <button type="submit" class="submitBtn">Submit</button>
+           </form> 
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
